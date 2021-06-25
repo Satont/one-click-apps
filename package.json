@@ -5,7 +5,7 @@
   "scripts": {
     "formatter": "prettier --check './public/**/*.(json|yml)'",
     "formatter-write": "prettier --write './public/**/*.(json|yml)'",
-    "prebuild": "rimraf docs",
+    "prebuild": "rimraf dist",
     "build": "node ./scripts/build_one_click_apps.js",
     "postbuild": "node ./scripts/build_one_click_apps_from_v4.js",
     "validate_apps": "node ./scripts/validate_apps.js",
