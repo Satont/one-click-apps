@@ -1,6 +1,6 @@
 captainVersion: 4
 services:
-    $$cap_appname:
+    $$cap_appname-yakui:
         image: satont/yakui
         restart: always
         environment:
@@ -23,7 +23,7 @@ caproverOneClickApp:
     instructions:
         start: >-
             Yakui
-        end: Yakui is deployed as $$capappname
+        end: Yakui is deployed as $$cap_appname-yakui
     displayName: Yakui
     isOfficial: false
     description: Yakui
